@@ -10,3 +10,7 @@ npm install dotenv
 npm install jsonwebtoken
 npm i --save-dev @types/jsonwebtoken
 npm run dev
+
+3.
+npm install passport passport-jwt bcryptjs
+npm install @types/passport @types/passport-jwt

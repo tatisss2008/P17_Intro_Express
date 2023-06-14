@@ -11,5 +11,13 @@ router.get(
     }
 )
 
+router.get(
+    '/despedida',
+    (req:Request, res:Response)=>{
+
+        res.send('Hasta pronto!!')
+    }
+)
+
 
 export default router
